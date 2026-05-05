@@ -22,8 +22,8 @@ function Signup() {
         setSuccess('');
 
         const endpoint = isLogin
-            ? 'http://localhost:3002/login'
-            : 'http://localhost:3002/signup';
+            ? `${process.env.REACT_APP_API_URL}/login`
+            : `${process.env.REACT_APP_API_URL}/signup`;
 
         try {
             const response = await fetch(endpoint, {
@@ -37,7 +37,7 @@ function Signup() {
             if (response.ok) {
                 if (isLogin) {
                     // LOGIN SUCCESS → redirect to dashboard
-                    window.location.href = "http://localhost:3001/";
+                    window.location.href = `${process.env.REACT_APP_DASHBOARD_URL}/`;
                 } else {
                     // SIGNUP SUCCESS → show message & switch to login
                     setSuccess('Account created successfully! Please login.');

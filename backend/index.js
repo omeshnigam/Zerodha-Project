@@ -15,7 +15,9 @@ const url=process.env.MONGO_URL;
 
 const app=express();
 
-app.use(cors({origin:['https://zerodha-dashboard-vjme.onrender.com','https://zerodha-frontend-ugdg.onrender.com'],credentials:true}));
+const allowedOrigins = process.env.CORS_ORIGIN?.split(",") || [];
+
+app.use(cors({origin: allowedOrigins,credentials:true}));
 app.use(bodyParser.json());
 
 // Holdings Dummy Data

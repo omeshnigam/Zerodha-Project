@@ -54,7 +54,7 @@ const Menu = () => {
           <p className="username">USERID</p>
         </div>
         <button
-          onClick={() => { window.location.href = "http://localhost:3000/"; }}
+          onClick={() => { window.location.href = `${process.env.REACT_APP_FRONTEND_URL}/`; }}
           style={{
             marginTop: '10px',
             padding: '5px 14px',
