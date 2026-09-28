@@ -93,5 +93,6 @@ Portfolio diversification and capital distribution metrics are rendered natively
 ### 💼 HR & Recruiting Summary
 This project stands as clear evidence of my capability to engineer production-ready, full-stack architectures from scratch. I deeply understand database schemas, asynchronous state flows, role-based authentication layers, and data-dense UI styling. I am fully prepared to join your development squad on Day 1 and push reliable code straight into your engineering pipeline.
 
-𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐜) 𝟐𝟎𝟐𝟔-𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐎𝐦𝐞𝐬𝐡 𝐍𝐢𝐠𝐚𝐦. 𝐀𝐥𝐥 𝐫𝐢𝐠𝐡𝐭𝐬 𝐫𝐞𝐬𝐞𝐫𝐯𝐞𝐝.
+𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐜) 𝟐𝟎𝟐𝟔-𝐏𝐫𝐞𝐬𝐞𝐧𝐭 𝐎𝐦𝐞𝐬𝐡 𝐍𝐢𝐠𝐚𝐦. 𝐀𝐥𝐥 𝐫𝐢𝐠𝐡𝐭𝐬 𝐫𝐞𝐬𝐞𝐫𝐯𝐞𝐝.
+
 
